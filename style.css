@@ -869,3 +869,63 @@ footer {
     }
 
 }
+
+
+/* =================================
+   PROFESSIONAL EMAIL PAGE
+================================= */
+
+.email-paper {
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.06);
+    line-height: 1.8;
+}
+
+.email-paper h2 {
+    color: #0b1f3a;
+    margin-bottom: 25px;
+}
+
+.email-field {
+    display: flex;
+    gap: 12px;
+    padding: 12px 0;
+    border-bottom: 1px solid #e5e9ef;
+    flex-wrap: wrap;
+}
+
+.email-field strong {
+    color: #173d63;
+    min-width: 75px;
+}
+
+.email-paper hr {
+    border: none;
+    border-top: 2px solid #d5a94f;
+    margin: 25px 0;
+}
+
+.email-paper > p {
+    margin-bottom: 18px;
+}
+
+.attachment-note {
+    background: #edf2f7;
+    padding: 20px;
+    margin-top: 25px;
+    border-radius: 8px;
+}
+
+.attachment-note strong {
+    color: #0b1f3a;
+}
+
+@media (max-width: 600px) {
+
+    .email-paper {
+        padding: 23px;
+    }
+
+}
