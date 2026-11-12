@@ -662,3 +662,146 @@ footer {
     }
 
 }
+
+
+/* =================================
+   SKILLS AND PROJECTS PAGE
+================================= */
+
+.skills-container {
+    max-width: 1100px;
+    margin: 50px auto;
+    padding: 0 25px;
+}
+
+.skills-intro {
+    background: white;
+    padding: 35px;
+    margin-bottom: 35px;
+    border-radius: 10px;
+    box-shadow: 0 5px 18px rgba(0,0,0,0.05);
+}
+
+.skills-intro h2,
+.skills-section h2 {
+    color: #0b1f3a;
+    margin-bottom: 20px;
+}
+
+.skills-intro h2 {
+    border-bottom: 2px solid #d5a94f;
+    padding-bottom: 12px;
+}
+
+.skills-intro p {
+    text-align: justify;
+}
+
+.skills-section {
+    margin-bottom: 45px;
+}
+
+.skills-section > h2 {
+    font-size: 27px;
+    margin-bottom: 25px;
+}
+
+.skills-grid,
+.professional-grid,
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 22px;
+}
+
+.portfolio-skill,
+.professional-card,
+.project-card {
+    background: white;
+    padding: 28px;
+    border-radius: 10px;
+    box-shadow: 0 5px 18px rgba(0,0,0,0.05);
+    transition: 0.3s;
+}
+
+.portfolio-skill:hover,
+.professional-card:hover,
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+.skill-icon {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #0b1f3a;
+    color: #d5a94f;
+    font-weight: bold;
+    border-radius: 8px;
+    margin-bottom: 18px;
+}
+
+.portfolio-skill h3,
+.professional-card h3,
+.project-card h3 {
+    color: #173d63;
+    margin-bottom: 12px;
+}
+
+.portfolio-skill p,
+.professional-card p,
+.project-card p {
+    color: #555;
+    font-size: 14px;
+}
+
+.skill-status,
+.project-status {
+    display: inline-block;
+    margin-top: 18px;
+    padding: 6px 12px;
+    background: #edf2f7;
+    color: #173d63;
+    border-radius: 20px;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.project-intro {
+    margin-bottom: 22px;
+    color: #555;
+}
+
+.project-number {
+    color: #bd9138;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+@media (max-width: 800px) {
+
+    .skills-grid,
+    .professional-grid,
+    .projects-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+@media (max-width: 550px) {
+
+    .skills-grid,
+    .professional-grid,
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .skills-intro {
+        padding: 23px;
+    }
+
+}
