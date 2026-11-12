@@ -568,3 +568,97 @@ footer {
     }
 
 }
+
+
+/* =================================
+   GROUP WORK PAGE
+================================= */
+
+.group-container {
+    max-width: 950px;
+    margin: 50px auto;
+    padding: 0 25px;
+}
+
+.group-intro {
+    background: white;
+    padding: 35px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 18px rgba(0,0,0,0.05);
+}
+
+.group-intro h2 {
+    color: #0b1f3a;
+    border-bottom: 2px solid #d5a94f;
+    padding-bottom: 12px;
+    margin-bottom: 20px;
+}
+
+.group-intro p {
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.stage-card {
+    background: white;
+    padding: 35px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    border-left: 5px solid #d5a94f;
+    box-shadow: 0 5px 18px rgba(0,0,0,0.05);
+}
+
+.stage-number {
+    display: inline-block;
+    color: #bd9138;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.stage-card h2 {
+    color: #0b1f3a;
+    font-size: 27px;
+}
+
+.stage-card h3 {
+    color: #173d63;
+    margin: 10px 0 15px;
+}
+
+.stage-card > p {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.reflection-box {
+    background: #edf2f7;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.reflection-box strong {
+    color: #0b1f3a;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.reflection-box p {
+    color: #555;
+    font-style: italic;
+}
+
+@media (max-width: 600px) {
+
+    .stage-card,
+    .group-intro {
+        padding: 22px;
+    }
+
+    .stage-card h2 {
+        font-size: 23px;
+    }
+
+}
