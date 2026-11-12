@@ -929,3 +929,103 @@ footer {
     }
 
 }
+
+
+/* STUDY RESOURCES PAGE */
+
+.resources-container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 40px auto;
+}
+
+.resource-intro {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.resource-intro p {
+    max-width: 800px;
+    margin: 15px auto;
+    line-height: 1.8;
+    color: #555;
+}
+
+.resource-section {
+    margin-bottom: 45px;
+}
+
+.resource-section h2 {
+    color: #14213d;
+    margin-bottom: 20px;
+}
+
+.resource-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 20px;
+}
+
+.resource-card {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid #e1e1e1;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    margin-bottom: 18px;
+}
+
+.resource-card h3 {
+    color: #14213d;
+    margin-bottom: 12px;
+}
+
+.resource-card p {
+    color: #555;
+    line-height: 1.7;
+    margin-bottom: 12px;
+}
+
+.resource-card a {
+    color: #b38b35;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.resource-card a:hover {
+    text-decoration: underline;
+}
+
+.learning-message {
+    background: #14213d;
+    color: white;
+    text-align: center;
+    padding: 40px 25px;
+    border-radius: 10px;
+    margin: 50px 0;
+}
+
+.learning-message p {
+    line-height: 1.8;
+    max-width: 750px;
+    margin: 15px auto;
+}
+
+.learning-message h3 {
+    color: #e0b653;
+    margin-top: 20px;
+}
+
+@media (max-width: 600px) {
+    .resources-container {
+        width: 92%;
+    }
+
+    .resource-card {
+        padding: 20px;
+    }
+
+    .learning-message {
+        padding: 30px 18px;
+    }
+}
