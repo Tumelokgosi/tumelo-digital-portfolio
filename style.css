@@ -370,3 +370,116 @@ footer {
 .nav-links a.active {
     color: #d5a94f;
 }
+
+
+/* =================================
+   CV PAGE STYLING
+================================= */
+
+.cv-hero {
+    background: linear-gradient(120deg, #0b1f3a, #173d63);
+    color: white;
+    text-align: center;
+    padding: 75px 20px;
+}
+
+.cv-hero p:first-child {
+    color: #d5a94f;
+    letter-spacing: 3px;
+    font-size: 13px;
+}
+
+.cv-hero h1 {
+    font-size: 40px;
+    margin: 15px 0;
+}
+
+.cv-hero h2 {
+    color: #d5a94f;
+    font-size: 24px;
+}
+
+.cv-container {
+    max-width: 950px;
+    margin: 50px auto;
+    padding: 0 25px;
+}
+
+.cv-section {
+    background: white;
+    padding: 30px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: 0 5px 18px rgba(0,0,0,0.05);
+}
+
+.cv-section h2 {
+    color: #0b1f3a;
+    border-bottom: 2px solid #d5a94f;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.cv-item {
+    margin-bottom: 15px;
+}
+
+.cv-item h3 {
+    color: #173d63;
+    margin-bottom: 5px;
+}
+
+.institution {
+    font-weight: bold;
+    color: #bd9138;
+}
+
+.placeholder {
+    color: #777;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+.cv-skills {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.skill {
+    background: #f0f3f7;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.skill h3 {
+    color: #173d63;
+    margin-bottom: 8px;
+}
+
+.cv-list {
+    padding-left: 25px;
+}
+
+.cv-list li {
+    margin-bottom: 10px;
+}
+
+.cv-button {
+    text-align: center;
+    margin: 40px 0;
+}
+
+@media (max-width: 600px) {
+    .cv-skills {
+        grid-template-columns: 1fr;
+    }
+
+    .cv-hero h1 {
+        font-size: 30px;
+    }
+
+    .cv-section {
+        padding: 20px;
+    }
+}
