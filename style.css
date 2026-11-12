@@ -1,0 +1,334 @@
+
+/* =================================
+   1. GENERAL WEBSITE SETTINGS
+================================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f7fa;
+    color: #263238;
+    line-height: 1.7;
+}
+
+
+/* =================================
+   2. NAVIGATION BAR
+================================= */
+
+header {
+    background-color: #0b1f3a;
+    padding: 18px 8%;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #d5a94f;
+}
+
+
+/* =================================
+   3. HOMEPAGE / HERO SECTION
+================================= */
+
+.hero {
+    min-height: 85vh;
+    background: linear-gradient(
+        120deg,
+        #0b1f3a,
+        #173d63
+    );
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 70px 10%;
+    gap: 40px;
+}
+
+.hero-content {
+    max-width: 650px;
+    color: white;
+}
+
+.intro {
+    color: #d5a94f;
+    letter-spacing: 3px;
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero h1 {
+    font-size: 55px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.hero h1 span {
+    color: #d5a94f;
+}
+
+.hero h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+.hero-description {
+    color: #dce5ef;
+    margin-bottom: 30px;
+    max-width: 550px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #d5a94f;
+    color: #0b1f3a;
+    padding: 13px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: white;
+    transform: translateY(-3px);
+}
+
+
+/* =================================
+   4. PROFILE IMAGE PLACEHOLDER
+================================= */
+
+.hero-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-placeholder {
+    width: 260px;
+    height: 300px;
+    border: 3px solid #d5a94f;
+    border-radius: 15px;
+    background-color: #203d5b;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.image-placeholder span {
+    font-size: 75px;
+    font-weight: bold;
+    color: #d5a94f;
+}
+
+.image-placeholder p {
+    font-size: 12px;
+    padding: 10px;
+}
+
+
+/* =================================
+   5. GENERAL SECTIONS
+================================= */
+
+.section {
+    padding: 80px 10%;
+}
+
+.section-heading {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section-heading p {
+    color: #bd9138;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.section-heading h2 {
+    color: #0b1f3a;
+    font-size: 35px;
+    margin-top: 8px;
+}
+
+.about-content {
+    max-width: 850px;
+    margin: auto;
+    background-color: white;
+    padding: 35px;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.06);
+}
+
+.about-content p {
+    margin-bottom: 18px;
+}
+
+
+/* =================================
+   6. INTEREST CARDS
+================================= */
+
+.interests {
+    background-color: #e9eef4;
+}
+
+.interest-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.interest-card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    border-bottom: 4px solid #d5a94f;
+    transition: 0.3s;
+}
+
+.interest-card:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.interest-card h3 {
+    color: #0b1f3a;
+    margin-bottom: 10px;
+}
+
+
+/* =================================
+   7. PERSONAL QUOTE
+================================= */
+
+.quote-section {
+    background-color: #0b1f3a;
+    color: white;
+    text-align: center;
+    padding: 70px 10%;
+}
+
+.quote-section p {
+    color: #d5a94f;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.quote-section h2 {
+    max-width: 800px;
+    margin: auto;
+    font-size: 27px;
+    font-style: italic;
+}
+
+
+/* =================================
+   8. FOOTER
+================================= */
+
+footer {
+    background-color: #071629;
+    color: #dce5ef;
+    text-align: center;
+    padding: 25px;
+    font-size: 13px;
+}
+
+
+/* =================================
+   9. MOBILE RESPONSIVENESS
+================================= */
+
+@media (max-width: 850px) {
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero h1 {
+        font-size: 40px;
+    }
+
+    .interest-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .navbar {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .nav-links {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .hero h1 {
+        font-size: 32px;
+    }
+
+    .hero h2 {
+        font-size: 17px;
+    }
+
+    .section {
+        padding: 55px 6%;
+    }
+
+    .about-content {
+        padding: 22px;
+    }
+
+}
