@@ -332,3 +332,41 @@ footer {
     }
 
 }
+
+
+/* BACK TO TOP BUTTON */
+
+.back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    width: 45px;
+    height: 45px;
+    border: none;
+    border-radius: 50%;
+    background-color: #d5a94f;
+    color: #0b1f3a;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+    z-index: 999;
+}
+
+.back-to-top.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+.back-to-top:hover {
+    background-color: #0b1f3a;
+    color: white;
+}
+
+/* ACTIVE NAVIGATION LINK */
+
+.nav-links a.active {
+    color: #d5a94f;
+}
