@@ -805,3 +805,67 @@ footer {
     }
 
 }
+
+
+/* =================================
+   APPLICATION LETTER PAGE
+================================= */
+
+.letter-container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 0 25px;
+}
+
+.letter-paper {
+    background: white;
+    padding: 55px;
+    border-radius: 8px;
+    box-shadow: 0 5px 25px rgba(0,0,0,0.08);
+    line-height: 1.9;
+}
+
+.letter-paper h2 {
+    color: #0b1f3a;
+    font-size: 25px;
+    margin-bottom: 3px;
+}
+
+.letter-subtitle {
+    color: #bd9138;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.letter-paper hr {
+    border: none;
+    border-top: 2px solid #d5a94f;
+    margin-bottom: 25px;
+}
+
+.letter-paper p {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.letter-paper h3 {
+    color: #173d63;
+    font-size: 16px;
+    margin: 25px 0;
+}
+
+.signature {
+    margin-top: 25px;
+}
+
+@media (max-width: 600px) {
+
+    .letter-paper {
+        padding: 25px;
+    }
+
+    .letter-paper h2 {
+        font-size: 21px;
+    }
+
+}
