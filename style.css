@@ -483,3 +483,88 @@ footer {
         padding: 20px;
     }
 }
+
+
+/* =================================
+   ACADEMIC BLOG PAGE
+================================= */
+
+.blog-hero {
+    background: linear-gradient(120deg, #0b1f3a, #173d63);
+    color: white;
+    text-align: center;
+    padding: 75px 20px;
+}
+
+.blog-hero p:first-child {
+    color: #d5a94f;
+    font-size: 13px;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+.blog-hero h1 {
+    font-size: 42px;
+    margin: 15px 0;
+}
+
+.blog-container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 0 25px;
+}
+
+.blog-post {
+    background: white;
+    padding: 45px;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.06);
+    margin-bottom: 35px;
+}
+
+.blog-category {
+    color: #bd9138;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.blog-post h2 {
+    color: #0b1f3a;
+    font-size: 30px;
+    margin: 12px 0;
+}
+
+.blog-date {
+    color: #777;
+    font-size: 13px;
+    margin-bottom: 30px;
+}
+
+.blog-content h3 {
+    color: #173d63;
+    margin: 25px 0 10px;
+}
+
+.blog-content p {
+    margin-bottom: 18px;
+    text-align: justify;
+}
+
+.blog-container > .btn {
+    display: block;
+    width: fit-content;
+    margin: auto;
+}
+
+@media (max-width: 600px) {
+
+    .blog-post {
+        padding: 25px;
+    }
+
+    .blog-hero h1 {
+        font-size: 30px;
+    }
+
+}
